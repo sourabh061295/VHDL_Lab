@@ -1,0 +1,40 @@
+v 4
+file "/home/calab/lab/Lab03/tasks/" "types.vhd" "14a44a19689d166a68ef2fca80d95cb5f19bbcf0" "20221017102309.199":
+  package types at 1( 0) + 0 on 4;
+  package body types at 17( 643) + 0 on 4;
+file "/home/calab/lab/Lab03/tasks/" "registers.vhd" "bce52747b741213fc6f0cb36d6cdd2dad35f553a" "20221017102309.199":
+  package registers at 1( 0) + 0 on 4;
+  package body registers at 41( 1820) + 0 on 4;
+file "/home/calab/lab/Lab03/tasks/" "fulladder_tb.vhd" "0e7fb69c996b1d861f274b95ef16399ddfa8c7db" "20221017102309.199":
+  entity fulladder_tb at 1( 0) + 0 on 4;
+  architecture test of fulladder_tb at 8( 88) + 0 on 4;
+file "/home/calab/lab/Lab03/tasks/" "fulladder.vhd" "e72a66daad6f4a06845c960d1a96fd5e2d963e82" "20221017102309.198":
+  entity fulladder at 1( 0) + 0 on 4;
+  architecture withsignals of fulladder at 10( 148) + 0 on 4;
+  architecture withpg of fulladder at 21( 355) + 2 on 4;
+  architecture withfunction of fulladder at 35( 640) + 2 on 4;
+  architecture withmux of fulladder at 53( 1096) + 0 on 4;
+file "/home/calab/lab/Lab03/tasks/" "cria.vhd" "ca047efb0a90cfce120bad1381a25f07916c430e" "20221017102309.198":
+  entity cria at 1( 0) + 0 on 4;
+  architecture withgenerate of cria at 13( 309) + 0 on 4;
+file "/home/calab/lab/Lab03/tasks/" "clpga.vhd" "6fac07d97d40d90642b7950fd82d25f4e16ece46" "20221017102309.198":
+  entity clpga at 1( 0) + 0 on 4;
+  architecture rtl of clpga at 15( 303) + 0 on 4;
+file "/home/calab/lab/Lab03/tasks/" "cla.vhd" "07ac623ecfe3053a3a43b1db0c9b31ae8ad6c7fb" "20221017102309.197":
+  entity cla at 1( 0) + 0 on 4;
+  architecture rtl of cla at 14( 275) + 0 on 4;
+file "/home/calab/lab/Lab03/tasks/" "casts.vhd" "d188c890c9a3409203393af4534d93b2d5fa1e20" "20221017102309.762":
+  package casts at 1( 0) + 0 on 11 body;
+  package body casts at 17( 714) + 0 on 12;
+file "/home/calab/lab/Lab03/tasks/" "bcla.vhd" "0822c695bb5b300e804ba748b92f5e880bf8d255" "20221017102309.197":
+  entity bcla at 2( 1) + 0 on 4;
+  architecture structural of bcla at 15( 378) + 0 on 4;
+file "/home/calab/lab/Lab03/tasks/" "adder_tb.vhd" "0885ddfe11c3903213fd82d1497b28141689f916" "20221017102309.196":
+  entity adder_tb at 1( 0) + 0 on 4;
+  architecture test of adder_tb at 11( 173) + 0 on 4;
+file "/home/calab/lab/Lab03/tasks/" "adder.vhd" "4515c3291f6e3ca1d4f0951d2b8333bed2b8f3f8" "20221017102309.196":
+  entity adder at 1( 0) + 0 on 4;
+  architecture rtl of adder at 14( 393) + 0 on 4;
+file "/home/calab/lab/Lab03/tasks/" "add.vhd" "1d7c1e1d243e0cb8d0a06584042627be94c13599" "20221017102310.158":
+  entity add at 1( 0) + 0 on 13;
+  architecture withplus of add at 15( 314) + 0 on 14;

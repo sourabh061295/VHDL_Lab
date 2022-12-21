@@ -1,0 +1,149 @@
+v 4
+file "/home/calab/lab/Lab02/src/" "types.vhd" "799de04fc18479b4bf9287ce33214a02195dd2d1" "20221013225256.756":
+  package types at 1( 0) + 0 on 4;
+  package body types at 12( 329) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "tree.vhd" "d5b4f642e30c034857036086b7db780d45a58fdb" "20221013225256.754":
+  entity tree at 1( 0) + 0 on 4;
+  architecture recursive of tree at 10( 192) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "shiftreg.vhd" "2d24600d91b54304fee48d059f82995fbed440f4" "20221013225256.753":
+  entity shiftreg at 1( 0) + 0 on 4;
+  architecture withproc of shiftreg at 13( 286) + 0 on 4;
+  architecture withwhen of shiftreg at 33( 654) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "regsr.vhd" "7230cf57470fdff0b90bf68e1b80baed1a171a1b" "20221013225256.752":
+  entity regsr at 1( 0) + 0 on 4;
+  architecture withproc of regsr at 11( 216) + 0 on 4;
+  architecture withprocedure of regsr at 26( 447) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "regar.vhd" "983a7a7f9b2446303d72121f10312644bdf196d3" "20221013225256.752":
+  entity regar at 1( 0) + 0 on 4;
+  architecture withproc of regar at 11( 212) + 0 on 4;
+  architecture withconc of regar at 24( 400) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "regae.vhd" "b209336325e78b59ec53d051f7bb9951da121b86" "20221013225256.752":
+  entity regae at 1( 0) + 0 on 4;
+  architecture withproc of regae at 11( 227) + 0 on 4;
+  architecture withconc of regae at 26( 457) + 0 on 4;
+  architecture withprocedure of regae at 34( 600) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "reg.vhd" "f17b7971ecc8449f45ed954a918018b8df0e3882" "20221013225256.752":
+  entity reg at 1( 0) + 0 on 4;
+  architecture withprocess of reg at 11( 204) + 0 on 4;
+  architecture withconc of reg at 22( 344) + 0 on 4;
+  architecture withprocedure of reg at 29( 430) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "raminit.vhd" "3c3870b75d8a48fed83cdf202b11325f79db4d8c" "20221013225256.751":
+  entity raminit at 1( 0) + 0 on 4;
+  architecture synth of raminit at 17( 519) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "ram_tb.vhd" "dea80417226cc6e118250d9b4c82b38ece6f8416" "20221013225256.751":
+  entity ram_tb at 1( 0) + 0 on 4;
+  architecture test of ram_tb at 9( 115) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "ram.vhd" "d6f11d227b7d9d37b940ce2506d82b6c1915a77d" "20221013225256.751":
+  package ramtypes at 1( 0) + 0 on 4;
+  package body ramtypes at 9( 128) + 0 on 4;
+  entity ram at 12( 159) + 0 on 4;
+  architecture behave of ram at 26( 641) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "processes_tb.vhd" "852df74570a58bfe5fa599e009601d10f5d17079" "20221013225256.750":
+  entity processes_tb at 1( 0) + 0 on 4;
+  architecture test of processes_tb at 4( 31) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "processes.vhd" "47dc926e05bb33dc32b68aee8bbfb5791c315f40" "20221013225256.750":
+  entity processes at 1( 0) + 0 on 4;
+  architecture rtl of processes at 7( 106) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "parity.vhd" "99b77cf4569e4cda10b91a8db96bf958cece9f88" "20221013225256.750":
+  entity parity at 1( 0) + 0 on 4;
+  architecture withfor of parity at 9( 151) + 0 on 4;
+  architecture with2008 of parity at 27( 438) + 0 on 4;
+  architecture withfor1 of parity at 34( 517) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "next.vhd" "616f6678255bb39d7ed1dee5d3add648d8bf82d8" "20221013225256.750":
+  entity count_ones at 1( 0) + 0 on 4;
+  architecture withnext of count_ones at 10( 199) + 0 on 4;
+  architecture withif of count_ones at 24( 500) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "nandn.vhd" "29d456ed3e82d99c8d352c0a8f312f265a7271f5" "20221013225256.749":
+  entity nandn at 1( 0) + 0 on 4;
+  architecture chain of nandn at 11( 182) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "mux4s.vhd" "13059fa4c884ed8b1525578d286d1ad6d63a0857" "20221013225256.749":
+  entity mux4s at 1( 0) + 0 on 4;
+  architecture position of mux4s at 12( 260) + 0 on 4;
+  architecture name of mux4s at 27( 576) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "mux4n.vhd" "24fe93cb7c02d4a56b72ecbd9b9cc553d7c385c5" "20221013225256.749":
+  entity mux4n at 1( 0) + 0 on 4;
+  architecture struct of mux4n at 16( 371) + 0 on 4;
+  architecture whensel of mux4n at 34( 788) + 0 on 4;
+  architecture withsel of mux4n at 44( 937) + 0 on 4;
+  architecture synth of mux4n at 54( 1091) + 0 on 4;
+  architecture whenxor of mux4n at 67( 1312) + 0 on 4;
+  architecture withxor of mux4n at 79( 1655) + 0 on 4;
+  architecture proccase of mux4n at 94( 2122) + 0 on 4;
+  architecture procif of mux4n at 108( 2378) + 0 on 4;
+  architecture procif2 of mux4n at 121( 2624) + 0 on 4;
+  architecture procfor of mux4n at 135( 3102) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "mux4.vhd" "0aba98eaedd769110281da271fbe6637576f2bf2" "20221013225256.748":
+  entity mux4 at 1( 0) + 0 on 4;
+  architecture whensel of mux4 at 11( 244) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "mux2n.vhd" "239ab9f65c7b3306d8bb872ee0bfa43639953271" "20221013225256.748":
+  entity mux2n at 1( 0) + 0 on 4;
+  architecture synth of mux2n at 12( 259) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "mux2.vhd" "b3379cc876f6292ad854e6642d0903b1a2db9987" "20221013225256.748":
+  entity mux2 at 1( 0) + 0 on 4;
+  architecture synth of mux2 at 11( 205) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "moore.vhd" "ae4bc142e59ea518d7c945b6b40f49d2245c2528" "20221013225256.748":
+  entity moore at 1( 0) + 0 on 4;
+  architecture withproc of moore at 10( 147) + 0 on 4;
+  architecture withwhen of moore at 39( 862) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "mealy.vhd" "870b7357e763372b3cc43d439fbfed55c6b15499" "20221013225256.747":
+  entity mealy at 1( 0) + 0 on 4;
+  architecture synth of mealy at 10( 147) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "latch.vhd" "a6dc5fc1a83b98e9edaeed964dcd3f4db1bf15f8" "20221013225256.747":
+  entity latch at 1( 0) + 0 on 4;
+  architecture withproc of latch at 11( 201) + 0 on 4;
+  architecture withwhen of latch at 22( 336) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "gcd_tb.vhd" "1d2269079f585bd901aa7e1460a65711556344f1" "20221013225256.747":
+  entity gcd_tb at 1( 0) + 0 on 4;
+  architecture with_process of gcd_tb at 4( 24) + 0 on 4;
+  architecture with_process1 of gcd_tb at 19( 376) + 0 on 4;
+  architecture withproc of gcd_tb at 37( 778) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "gates_tb1.vhd" "30f38bcbbe9a196c964e44a45aab11ea4626e852" "20221013225256.747":
+  entity gates_tb1 at 1( 0) + 0 on 4;
+  architecture asserttest of gates_tb1 at 8( 98) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "gates.vhd" "53228affad59355b88f53b8e96c208f9e5d2189b" "20221013225256.747":
+  entity gates at 1( 0) + 0 on 4;
+  architecture slice of gates at 10( 157) + 0 on 4;
+  architecture concate of gates at 28( 439) + 0 on 4;
+  architecture aggregate of gates at 35( 578) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "functions.vhd" "03059c2131dfb3b6fd7f5d5284f5a299fa3fc2ec" "20221013225256.746":
+  package functions at 1( 0) + 0 on 4;
+  package body functions at 17( 778) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "fulladder.vhd" "27e5ece6b6e2465349e218a7972bb8fda3458533" "20221013225256.746":
+  entity fulladder at 1( 0) + 0 on 4;
+  architecture withvars of fulladder at 10( 150) + 0 on 4;
+  architecture withsignals of fulladder at 24( 421) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "fsm_tb.vhd" "61c7a35e2db518f84675076d23d6d186b1c395af" "20221013225256.746":
+  entity fsm_tb at 1( 0) + 0 on 4;
+  architecture test of fsm_tb at 7( 69) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "fileio.vhd" "fc5e5df40e0269e2874ba9cacae63d792538d48c" "20221013225256.745":
+  entity fileio at 1( 0) + 0 on 4;
+  architecture test of fileio at 8( 100) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "decoder.vhd" "beda94fc8b48c933ac3636af4086c6c49a0cac53" "20221013225256.745":
+  entity decoder at 1( 0) + 0 on 4;
+  architecture withcase of decoder at 10( 178) + 0 on 4;
+  architecture withif of decoder at 31( 893) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "counter1.vhd" "84adc256f0ffe5d5fade4c1257c83dd2949975c6" "20221013225256.745":
+  entity counter1 at 1( 0) + 0 on 4;
+  architecture withsig of counter1 at 13( 242) + 0 on 4;
+  architecture withvar of counter1 at 31( 510) + 0 on 4;
+  architecture withwhen of counter1 at 52( 787) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "counter.vhd" "bb52ca0eca5e32ccc71877644b888e10824c84e9" "20221013225256.744":
+  entity counter at 1( 0) + 0 on 4;
+  architecture withproc of counter at 13( 247) + 0 on 4;
+  architecture withwhen of counter at 26( 472) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "circuit_tb.vhd" "df80b064d72c0f67155dd2f6072111567e296424" "20221013225256.744":
+  entity circuit_tb at 1( 0) + 0 on 4;
+  architecture test of circuit_tb at 9( 119) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "circuit.vhd" "a7cdb7651d5254749617e2b632e63030c8ddc8eb" "20221013225256.744":
+  entity circuit at 1( 0) + 0 on 4;
+  architecture rtl of circuit at 13( 212) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "casts.vhd" "38b6f8e482c364b6c94076d93d8940148c910d76" "20221013225256.744":
+  package casts at 1( 0) + 0 on 4;
+  package body casts at 15( 570) + 0 on 4;
+file "/home/calab/lab/Lab02/src/" "bus.vhd" "57bc8b7db592e58cd9b9cef69f64f6f8653a651c" "20221013225256.743":
+  entity master at 1( 0) + 0 on 4;
+  architecture synth of master at 12( 248) + 0 on 4;
+  entity soc at 20( 355) + 0 on 4;
+  architecture rtl of soc at 32( 556) + 0 on 4;
+  entity soc_tb at 49( 1018) + 0 on 4;
+  architecture test of soc_tb at 56( 1111) + 0 on 4;

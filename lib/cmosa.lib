@@ -1,0 +1,88 @@
+// test comment
+/* test comment */
+library(demo) {
+  delay_model : table_lookup;
+  in_place_swap_mode : match_footprint;
+
+  /* unit attributes */
+  time_unit : "1ns";
+  voltage_unit : "1V";
+  current_unit : "1uA";
+  pulling_resistance_unit : "1kohm";
+  leakage_power_unit : "1nW";
+  capacitive_load_unit (1,pf);
+
+  cell(_BUF_) {
+    area: 6;
+    pin(A) { direction: input; }
+    pin(Y) { direction: output;
+              function: "A"; }
+  }
+  cell(_NOT_) {
+    area: 3;
+    pin(A) { direction: input; }
+    pin(Y) { direction: output;
+              function: "A'"; }
+  }
+  cell(_NAND_) {
+    area: 4;
+    pin(A) { direction: input; }
+    pin(B) { direction: input; }
+    pin(Y) { direction: output;
+             function: "(A*B)'"; }
+  }
+  cell(_AND_) {
+    area: 6;
+    pin(A) { direction: input; }
+    pin(B) { direction: input; }
+    pin(Y) { direction: output;
+             function: "(A*B)"; }
+  }
+  cell(_NOR_) {
+    area: 4;
+    pin(A) { direction: input; }
+    pin(B) { direction: input; }
+    pin(Y) { direction: output;
+             function: "(A+B)'"; }
+  }
+  cell(_OR_) {
+    area: 6;
+    pin(A) { direction: input; }
+    pin(B) { direction: input; }
+    pin(Y) { direction: output;
+             function: "(A+B)"; }
+  }
+/*  cell(_MUX_) {
+    area: 18;
+    pin(A) { direction: input; }
+    pin(B) { direction: input; }
+    pin(S) { direction: input; }
+    pin(Y) { direction: output;
+             function: "(S*A)+(S'*B)"; }
+  } */
+  cell(_DFF_) {
+    area: 18;
+    ff(IQ, IQN) { clocked_on: C;
+                  next_state: D; }
+    pin(C) { direction: input;
+                 clock: true; }
+    pin(D) { direction: input; }
+    pin(Q) { direction: output;
+              function: "IQ"; }
+  }
+  cell(_DFFSR_) {
+    area: 18;
+    ff("IQ", "IQN") { clocked_on: C;
+                  next_state: D;
+                      preset: S;
+                       clear: R; }
+    pin(C) { direction: input;
+                 clock: true; }
+    pin(D) { direction: input; }
+    pin(Q) { direction: output;
+              function: "IQ"; }
+    pin(S) { direction: input; }
+    pin(R) { direction: input; }
+    ; // empty statement
+  }
+}

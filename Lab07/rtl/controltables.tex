@@ -1,0 +1,64 @@
+
+\documentclass[english]{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage[landscape]{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+\usepackage{array}
+\usepackage{multirow}
+
+\makeatletter
+
+\providecommand{\tabularnewline}{\\}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+\begin{center}
+\begin{tabular}{|c|c||c|c|c|c|c|c|c|c|}
+\hline 
+{opcode} & {instr} & {RegWrite} & {ImmSrc} & {ALUSrc} & {MemWrite} & {ResultSrc} & {Branch} & {ALUOp} & {Jump}\tabularnewline
+\hline 
+\hline 
+{3} & {lw} & {1} & {00} & {1} & {0} & {01} & {0} & {00} & {0}\tabularnewline
+\hline 
+{35} & {sw} & {0} & {01} & {1} & {1} & {-{}-} & {0} & {00} & {0}\tabularnewline
+\hline 
+{51} & {R-Type} & {1} & {- -} & {0} & {0} & {00} & {0} & {10} & {0}\tabularnewline
+\hline 
+{99} & {beq} & {0} & {10} & {0} & {0} & {-{}-} & {1} & {01} & {0}\tabularnewline
+\hline 
+{19} & {I-Type (ALU)} & {1} & {00} & {1} & {0} & {00} & {0} & {10} & {0}\tabularnewline
+\hline 
+{111} & {jal} & {1} & {11} & {-} & {0} & {10} & {0} & {- -} & {1}\tabularnewline
+\hline 
+\end{tabular}
+\par\end{center}
+
+\newpage{}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c||l|}
+\hline 
+{ALUop} & {opcode(5)} & {funct3} & {funct7(5)} & {Instruction} & {ALU Function} & {ALUControl}\tabularnewline
+\hline 
+\hline 
+{00} & {-} & {- - -} & {-} & {lw/sw} & {$Y=A+B$} & {010}\tabularnewline
+\hline 
+{01} & {-} & {- - -} & {-} & {beq} & {$Y=A-B$} & {110 }\tabularnewline
+\hline 
+\multirow{5}{*}{{10}} & {-} & {000} & {0} & {add} & {$Y=A+B$} & {010}\tabularnewline
+\cline{2-7} 
+ & {1} & {000} & {1} & {sub} & {$Y=A-B$} & {110}\tabularnewline
+\cline{2-7} 
+ & {-} & {010} & {0} & {slt} & {$Y=A-B\,?\,1:0$} & {111 }\tabularnewline
+\cline{2-7} 
+ & {-} & {110} & {0} & {or} & {$Y=A\vee B$} & {001 }\tabularnewline
+\cline{2-7} 
+ & {-} & {111} & {0} & {and} & {$Y=A\wedge B$} & {000 }\tabularnewline
+\hline 
+\end{tabular}
+\par\end{center}
+\end{document}

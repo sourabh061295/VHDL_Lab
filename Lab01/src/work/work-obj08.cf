@@ -1,0 +1,11 @@
+v 4
+file "/home/calab/lab/Lab01/src/" "hello_world.vhd" "ee7823634c3fc641bceae0384cd535089aac9549" "20221013222941.825":
+  entity hello_world at 1( 0) + 0 on 4;
+  architecture behaviour of hello_world at 6( 140) + 0 on 4;
+file "/home/calab/lab/Lab01/src/" "gcd_tb.vhd" "df22ec0d01c4a208b5dc58f41a3861f0652f652c" "20221013222942.052":
+  entity gcd_tb at 1( 0) + 0 on 13;
+  architecture with_process of gcd_tb at 4( 24) + 0 on 14;
+  architecture with_process1 of gcd_tb at 19( 376) + 0 on 15;
+file "/home/calab/lab/Lab01/src/" "gcd.vhd" "194db46c78e62faaac49aa57af7d4101b2da02b1" "20221013222941.943":
+  entity gcd at 1( 0) + 0 on 11;
+  architecture with_process of gcd at 6( 101) + 0 on 12;

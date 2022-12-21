@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Thu Oct 29 21:57:08 2020
+[*]
+[dumpfile] "(null)"
+[savefile] "/home/wolfgang/Dokumente/SVN/ra/WiSe2021/Praktikum/lab/Lab02/src/ram_tb.gtkw"
+[timestart] 0
+[size] 912 295
+[pos] -1 -1
+*-26.170521 85000000 85000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.ram_tb.
+[treeopen] top.ram_tb.ram.
+[sst_width] 43
+[signals_width] 167
+[sst_expanded] 0
+[sst_vpaned_height] 60
+@22
+#{top.ram_tb.dout[15:0]} top.ram_tb.dout[15] top.ram_tb.dout[14] top.ram_tb.dout[13] top.ram_tb.dout[12] top.ram_tb.dout[11] top.ram_tb.dout[10] top.ram_tb.dout[9] top.ram_tb.dout[8] top.ram_tb.dout[7] top.ram_tb.dout[6] top.ram_tb.dout[5] top.ram_tb.dout[4] top.ram_tb.dout[3] top.ram_tb.dout[2] top.ram_tb.dout[1] top.ram_tb.dout[0]
+#{top.ram_tb.din[15:0]} top.ram_tb.din[15] top.ram_tb.din[14] top.ram_tb.din[13] top.ram_tb.din[12] top.ram_tb.din[11] top.ram_tb.din[10] top.ram_tb.din[9] top.ram_tb.din[8] top.ram_tb.din[7] top.ram_tb.din[6] top.ram_tb.din[5] top.ram_tb.din[4] top.ram_tb.din[3] top.ram_tb.din[2] top.ram_tb.din[1] top.ram_tb.din[0]
+#{top.ram_tb.raddr[3:0]} top.ram_tb.raddr[3] top.ram_tb.raddr[2] top.ram_tb.raddr[1] top.ram_tb.raddr[0]
+#{top.ram_tb.waddr[3:0]} top.ram_tb.waddr[3] top.ram_tb.waddr[2] top.ram_tb.waddr[1] top.ram_tb.waddr[0]
+@28
+top.ram_tb.we
+@22
+#{top.ram_tb.ram.mem[4][15:0]} top.ram_tb.ram.mem[4][15] top.ram_tb.ram.mem[4][14] top.ram_tb.ram.mem[4][13] top.ram_tb.ram.mem[4][12] top.ram_tb.ram.mem[4][11] top.ram_tb.ram.mem[4][10] top.ram_tb.ram.mem[4][9] top.ram_tb.ram.mem[4][8] top.ram_tb.ram.mem[4][7] top.ram_tb.ram.mem[4][6] top.ram_tb.ram.mem[4][5] top.ram_tb.ram.mem[4][4] top.ram_tb.ram.mem[4][3] top.ram_tb.ram.mem[4][2] top.ram_tb.ram.mem[4][1] top.ram_tb.ram.mem[4][0]
+@28
+top.ram_tb.ram.rclk
+[pattern_trace] 1
+[pattern_trace] 0

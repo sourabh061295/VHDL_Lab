@@ -1,0 +1,40 @@
+v 4
+file "/home/calab/lab/Lab04/tasks/" "types.vhd" "14a44a19689d166a68ef2fca80d95cb5f19bbcf0" "20221026174152.903":
+  package types at 1( 0) + 0 on 4;
+  package body types at 17( 643) + 0 on 4;
+file "/home/calab/lab/Lab04/tasks/" "shifter_tb.vhd" "658c99ccc4e19f5dc4bfe8d91230ca83aee8779a" "20221026174152.902":
+  entity shifter_tb at 1( 0) + 0 on 4;
+  architecture test of shifter_tb at 12( 219) + 0 on 4;
+file "/home/calab/lab/Lab04/tasks/" "shifter_reg.vhd" "3d51348f6ece15f09b21d331c0fef484b1fc63e7" "20221026174152.902":
+  entity shifter_reg at 1( 0) + 0 on 4;
+  architecture rtl of shifter_reg at 16( 435) + 0 on 4;
+file "/home/calab/lab/Lab04/tasks/" "shifter.vhd" "5c8637d84b880083765e1dd598885c816295156d" "20221026174152.901":
+  entity shifter at 1( 0) + 0 on 4;
+  architecture rtl of shifter at 17( 451) + 0 on 4;
+file "/home/calab/lab/Lab04/tasks/" "registers.vhd" "bce52747b741213fc6f0cb36d6cdd2dad35f553a" "20221026174152.900":
+  package registers at 1( 0) + 0 on 4;
+  package body registers at 41( 1820) + 0 on 4;
+file "/home/calab/lab/Lab04/tasks/" "records.vhd" "d12fb9450be959947a597a6e57e6a46a11c47640" "20221026174152.899":
+  package records at 1( 0) + 0 on 4;
+  package body records at 13( 192) + 0 on 4;
+file "/home/calab/lab/Lab04/tasks/" "logbarrel.vhd" "52d92bf362a40ba747523847bcafe1f5eba8ba10" "20221026174152.899":
+  entity logbarrel at 1( 0) + 0 on 4;
+  architecture rtl1 of logbarrel at 17( 563) + 0 on 4;
+file "/home/calab/lab/Lab04/tasks/" "functions.vhd" "5ed83e160d1da7840b9fb09f17354de100f47b82" "20221026174152.898":
+  package functions at 1( 0) + 0 on 4;
+  package body functions at 18( 959) + 0 on 4;
+file "/home/calab/lab/Lab04/tasks/" "casts.vhd" "65b9dda6cb5e5151c75bd94b48808307950b0796" "20221026174152.898":
+  package casts at 1( 0) + 0 on 4;
+  package body casts at 24( 1082) + 0 on 4;
+file "/home/calab/lab/Lab04/tasks/" "alu_test.vhd" "647a5e0461215f9014c2f6c26ca7c783b69c2370" "20221026174152.897":
+  entity alu_test at 1( 0) + 0 on 4;
+  architecture test of alu_test at 12( 200) + 0 on 4;
+file "/home/calab/lab/Lab04/tasks/" "alu_tb.vhd" "553d95f95ecd3d84129af69343d7494e3596374f" "20221026174152.895":
+  entity alu_tb at 1( 0) + 0 on 4;
+  architecture test of alu_tb at 12( 190) + 0 on 4;
+file "/home/calab/lab/Lab04/tasks/" "alu.vhd" "7d2096c7883e590f906a855ed9568d51078bf3a3" "20221026174152.895":
+  entity alu at 1( 0) + 0 on 4;
+  architecture rtl of alu at 19( 675) + 0 on 4;
+file "/home/calab/lab/Lab04/tasks/" "add.vhd" "e26d5989917eae5743c06ca38659fe627de6384c" "20221026174152.894":
+  entity add at 1( 0) + 0 on 4;
+  architecture withfunc of add at 13( 287) + 0 on 4;

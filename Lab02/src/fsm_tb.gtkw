@@ -1,0 +1,32 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Thu Oct 29 20:22:35 2020
+[*]
+[dumpfile] "/home/wolfgang/Dokumente/SVN/ra/WiSe2021/Praktikum/lab/Lab02/src/work/fsm_tb.ghw"
+[dumpfile_mtime] "Thu Oct 29 19:55:21 2020"
+[dumpfile_size] 797
+[savefile] "/home/wolfgang/Dokumente/SVN/ra/WiSe2021/Praktikum/lab/Lab02/src/fsm_tb.gtkw"
+[timestart] 0
+[size] 847 295
+[pos] 277 193
+*-25.135801 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.fsm_tb.
+[sst_width] 43
+[signals_width] 78
+[sst_expanded] 0
+[sst_vpaned_height] 67
+@28
+top.fsm_tb.mealyfsm.clk
+top.fsm_tb.mealyfsm.rst
+top.fsm_tb.moorefsm.a
+@420
+top.fsm_tb.mealyfsm.state
+@28
+top.fsm_tb.ymoore
+@420
+top.fsm_tb.moorefsm.state
+@28
+top.fsm_tb.ymealy
+[pattern_trace] 1
+[pattern_trace] 0

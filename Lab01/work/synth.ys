@@ -1,0 +1,1 @@
+ghdl --std=08 gae; proc; clean; techmap -map /workspaces/lab/script/pmux2mux.v; opt; fsm; opt; stat; write_json gae.json ; write_verilog gae.v

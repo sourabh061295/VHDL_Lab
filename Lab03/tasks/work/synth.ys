@@ -1,0 +1,1 @@
+ghdl --std=08 -gN=4 add; proc; clean; techmap -map ~/lab/script/pmux2mux.v; opt; fsm; opt; stat; write_json add.json ; write_verilog add.v

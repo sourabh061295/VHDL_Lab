@@ -1,0 +1,16 @@
+>/usr/local/lib/ghdl/std/v08/
+../../src/std/v08/textio.vhdl
+>/usr/local/lib/ghdl/std/v08/
+../../src/std/v08/textio-body.vhdl
+>/usr/local/lib/ghdl/ieee/v08/
+../../src/ieee2008/std_logic_1164.vhdl
+>/usr/local/lib/ghdl/ieee/v08/
+../../src/ieee2008/std_logic_1164-body.vhdl
+>/usr/local/lib/ghdl/ieee/v08/
+../../src/ieee2008/numeric_std.vhdl
+>/usr/local/lib/ghdl/ieee/v08/
+../../src/ieee2008/numeric_std-body.vhdl
+>work/
+cria.vhd
+>work/
+fulladder.vhd

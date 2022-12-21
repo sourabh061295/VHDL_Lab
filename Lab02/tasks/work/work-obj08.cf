@@ -1,0 +1,13 @@
+v 4
+file "/home/calab/lab/Lab02/tasks/" "casts.vhd" "38b6f8e482c364b6c94076d93d8940148c910d76" "20221013225346.330":
+  package casts at 1( 0) + 0 on 11 body;
+  package body casts at 15( 570) + 0 on 12;
+file "/home/calab/lab/Lab02/tasks/" "gates.vhd" "3bb284ed8c5ebfc73a00f1e164b0a1243108959f" "20221013225346.546":
+  entity gates at 1( 0) + 0 on 13;
+  architecture slice of gates at 10( 157) + 0 on 14;
+  architecture concate of gates at 28( 439) + 0 on 15;
+  architecture aggregate of gates at 35( 578) + 0 on 16;
+  architecture withprocess of gates at 44( 746) + 0 on 17;
+file "/home/calab/lab/Lab02/tasks/" "gates_tb.vhd" "76d2a6d08580394d2486e7c449df6ab57284f97e" "20221013225346.701":
+  entity gates_tb at 1( 0) + 0 on 18;
+  architecture asserttest of gates_tb at 9( 117) + 0 on 19;

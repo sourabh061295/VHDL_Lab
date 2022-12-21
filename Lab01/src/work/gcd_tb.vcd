@@ -1,0 +1,39 @@
+$date
+  Fri Oct 14 00:29:42 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module gcd_tb $end
+$var integer 32 ! a $end
+$var integer 32 " b $end
+$var integer 32 # o $end
+$scope module gcd_inst $end
+$var integer 32 $ a $end
+$var integer 32 % b $end
+$var integer 32 & o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b110111001000 !
+b1001110110000 "
+b111111000 #
+b110111001000 $
+b1001110110000 %
+b111111000 &
+#20000000
+b1110011000100 !
+b11100 #
+b1110011000100 $
+b11100 &
+#30000000
+b111001001011111010 !
+b1111110 #
+b111001001011111010 $
+b1111110 &
